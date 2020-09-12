@@ -1,2 +1,3 @@
-node_mdoules
+.DS_Store
+node_modules
 .env
