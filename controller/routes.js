@@ -3,7 +3,6 @@ const router = express.Router();
 const burger = require('../models/burger.js');
 
 //routes
-
 router.get('/', function(req,res){
   burger.all(function(burger_data){
     console.log(burger_data);
