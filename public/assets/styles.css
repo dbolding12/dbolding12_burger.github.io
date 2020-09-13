@@ -1,0 +1,37 @@
+body {
+  background-image: url(https://media1.tenor.com/images/1f1897bd1249f834dd66ff9ab9a7f58d/tenor.gif?itemid=12547538);
+  background-color: lightgray; 
+  background-repeat: no-repeat;
+    background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 40px;
+}
+#burger_text {
+  padding: 10px;
+  background-color: rgb(7, 53, 7);
+  color: white;
+  text-align: center;
+  width: 60%;
+  margin-left: 165px;
+  }
+.btn-success{
+    margin-left: -115px;
+}
+h1 {
+  font-size: 50px;
+  color: darkred;
+  text-align: center;
+  margin-left: 220px;
+  }
+h2 {
+  font-size: 50px;
+  color: rgb(66, 52, 4);
+  text-align: center;
+  margin-left: 220px;
+  }
+p {
+  font-size: 40px;
+  color: dark red;
+  text-align: center;
+  }
