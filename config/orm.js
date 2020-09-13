@@ -9,8 +9,8 @@ const orm = {
     })
   },
 
-update: function(tableInput, condition, cb){
-  connection.query('UPDATE '+tableInput+' SET devoured=true WHERE id='+condition+';', function(err,result){
+update: function(tableInput, val, condition, cb){
+  connection.query('UPDATE '+tableInput+' SET devoured='+val+' WHERE id='+condition+';', function(err,result){
       if(err)throw err;
       cb(result);
     })

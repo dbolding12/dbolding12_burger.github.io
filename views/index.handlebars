@@ -1,7 +1,7 @@
 <div class="container">
   <div class="row">
     <div class="col-xs-12 text-center" id="top-bar">
-      <h1>I love eating burgers</h1>
+      <h1>Give me more Burgers </h1>
     </div>
 
     <div class="col-xs-6 text-center" id="task">
@@ -13,7 +13,7 @@
           <pre> {{this.id}}. {{this.burger_name}}</pre>
         </div>
       <div class="col-xs-9 text-center md-1">
-          <form method="POST" action="/burgers/update?_method=PUT"
+          <form method="POST" action="/burgers/update?_method=POST"
             class="button-size">
             <input type="hidden" name="burger_id" type="text" value={{this.id}}>
             <br>
@@ -46,7 +46,9 @@
               {{/if}}
             {{/each}}
             <br>
-
     </div>
   </div>
 </div>
+{{!-- <script>
+
+</script> --}}

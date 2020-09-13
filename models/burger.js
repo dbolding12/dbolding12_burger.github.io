@@ -11,8 +11,8 @@ let burger = {
     orm.create('burgers', name, cb);
   },
   
-  update: function(id,cb){
-    orm.update('burgers',id,cb);
+  update: function(val,id,cb){
+    orm.update('burgers',val,id,cb);
   }
 }
 

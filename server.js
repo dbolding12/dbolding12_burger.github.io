@@ -1,5 +1,6 @@
 const express = require("express");
-let PORT = process.env.PORT || 3306;
+
+let PORT = process.env.PORT || 8080;
 
 let app = express();
 
@@ -17,10 +18,10 @@ app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
 // Import routes and give the server access to them.
-const routes = require("./controllers/routes.js");
+const routes = require("./controller/routes.js");
 
 app.use(routes);
 
 app.listen(PORT, function() {
-  console.log("App now listening at localhost:" + PORT);
+  console.log("App now listening at localhost: http://localhost:" + PORT);
 });
