@@ -2,7 +2,10 @@
 In this project we created a burger logger with ith MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Additionally, we used CSS and HTML to setup the front end and add styling. The app allows the stakeholder to record burgers and devour them. The Burgers are added to the database once devoured. I hope you like burgers because you will be really full after playing on this sight. Yum. Yum. 
 
 git hub: https://github.com/dbolding12/dbolding12_burger.github.io
-heroku: 
+heroku: https://murmuring-basin-88193.herokuapp.com/
+
+
+[![Watch the video](./public/assets/burger.gif)
 
 # Node Express Handlebars
 
