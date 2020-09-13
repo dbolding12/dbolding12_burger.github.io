@@ -1,7 +1,6 @@
 body {
-
     background-color: #66ccff;
-    background-image: url("burger.gif"); /*burger gif...*/
+    background-image: url("burger.gif"); 
     background-size: 300px 300px;
     background-repeat: no-repeat;
     background-position: top;
@@ -13,7 +12,7 @@ div#task {
     margin-top: 75px;
 }
 
-/*Title*/
+
 h1 {
 	font-size: 80px;
 	color: #ff7d00;
@@ -32,7 +31,6 @@ h1 {
 
 /*style to the text box */
 #enter_text {
-  /* width: 40%; */
   height: 120px;
   padding: 12px 20px;
   box-sizing: border-box;
